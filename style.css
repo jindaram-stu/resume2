@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.left-content {
+    float : left;
+    width : 30%;
+    height : 1000px;
+    background-color: #708098;
+    overflow : hidden;
+}
+
+.right-content {
+    float: left;
+    width: 70%;
+    height : 1000px;
+}
+
+
+.fix-wrap {
+    width : inherit;
+    position : fixed;  
+    margin-top : 58px; 
+    overflow : hidden;
+}   
+
+.myPic {
+    display : block;
+    background-color: white;
+    margin : auto;
+    margin-top : 10px;
+    margin-bottom : 20px;
+    padding : 8px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+    
+   
+}   
+.info {
+    width : 266px;
+    margin : auto;
+}
+.name {
+    float : left;
+    text-align: center;
+    color : white;
+    font-size : 35px;
+    font-family: 'Black Han Sans', sans-serif;
+    margin-top : 10px;
+
+}
+
+.birth {
+
+    float : right;
+    text-align: center;
+    color : white;
+    font-size : 17px;
+    font-family: 'Black Han Sans', sans-serif;
+
+    margin-top : 19px;
+
+}
+
+.school {
+    clear : both;
+    color : white;
+    font-size : 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.proficiency {
+    margin-top : 10px;
+    color : white;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size : 25px;
+}
+
+.tech-name {
+    font-family: 'Noto Sans KR', sans-serif;
+    color : white;
+    font-weight: bold;
+}
+
+.per-java-back {
+    display : inline-block;
+    width: 70%;
+    height : 10px;
+    background-color: #B9CDE3;
+}
+
+.per-java {
+    display : inline-block;
+    width : 30%;
+    height : 10px;
+    margin : 0 -6px;
+    background-color : #9AB4D4;
+
+}
+
+.tech {
+    margin-bottom : 5px;
+}
+
+.per-CSS-back {
+    display : inline-block;
+    width: 40%;
+    height : 10px;
+    background-color: #B9CDE3;
+}
+
+.per-CSS {
+    display : inline-block;
+    width : 60%;
+    height : 10px;
+    margin : 0 -6px;
+    background-color : #9AB4D4;
+
+}
+
+.per-DB-back {
+    display : inline-block;
+    width: 60%;
+    height : 10px;
+    background-color: #B9CDE3;
+}
+
+.per-DB {
+    display : inline-block;
+    width : 40%;
+    height : 10px;
+    margin : 0 -6px;
+    background-color : #9AB4D4;
+
+}
