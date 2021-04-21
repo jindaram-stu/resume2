@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+html, body {
+    height : 100vh;
+   
+}
 
 * {
     margin : 0;
@@ -8,25 +14,27 @@
 .left-content {
     float : left;
     width : 30%;
-    height : 1000px;
-    background-color: #708098;
+    height : inherit;
+    
     overflow : hidden;
 }
 
 .right-content {
     float: left;
+    height : 100%;
     width: 70%;
-    height : 1000px;
+    height : auto;
 }
 
 
 .fix-wrap {
     width : inherit;
     position : fixed;  
-    margin-top : 58px; 
+    padding-top : 58px; 
     overflow : hidden;
+    height : 100%;
+    background-color: #708098
 }   
-
 .myPic {
     display : block;
     background-color: white;
@@ -35,8 +43,7 @@
     margin-bottom : 20px;
     padding : 8px;
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
-    
-   
+
 }   
 .info {
     width : 266px;
@@ -138,6 +145,7 @@
 }
 
 .menu {
+    
     position : fixed;
     width: inherit;
     height : 80px;
@@ -145,17 +153,16 @@
   
 
 }
-
 .menu-block{
     margin : auto;
     width : 95%;
     height : 79px;
     border-bottom : 1px solid #708098;
+    background-color: white;
 }
-
 .menu-name {
     float : left;
-    width : 25%;
+    width : 20%;
     height : 100%;
     text-align : center;
     padding-top : 25px;
@@ -164,8 +171,96 @@
     font-weight : bold;
     font-size : 20px;   
 }
-
 .menu-name:hover {
     color : white;
     background-color: #708098;
+}
+
+
+.main-contents {
+    margin : auto;
+    width : 95%;
+    height : inherit;
+    margin-top : 100px;
+    overflow : hidden;
+}
+
+
+/* profile content */
+
+.profile-content {
+    font-family: 'Black Han Sans', sans-serif;
+
+    font-size : 50px;
+    color : #708098;
+}
+.title-h1 {
+    float : left;
+}
+.title-h2 {
+    float : left;
+    font-size : 35px;
+}
+.line {
+    clear:both;
+    float :right;
+    height : 1px;
+    width : 100%;
+    border-bottom : 1px solid #708098;
+    margin-bottom : 15px;
+}
+
+.contents {
+    clear : both;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight : bold;
+    padding-top : 10px;
+    overflow:hidden;
+    margin-bottom : 20px;
+    
+
+}
+
+.profilePic {
+    float : right;
+   
+}
+
+
+.profile-info1 {
+    font-size : 20px;
+    text-align : left;
+    color : #708098;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight : bold;
+    overflow:hidden;
+   
+    
+  
+}
+.tag {
+    float: left;
+   
+}
+.tag-box {
+    
+    width : 100px;
+    background-color: #708098   ;
+    text-align : center;
+    color : white;
+    margin-bottom : 10px;
+    
+    
+}
+
+
+.tag-box-content {
+    float : left;
+    margin-left : 10px;
+    
+}
+.tag-box-content-p {
+    margin-bottom : 10px;
+    font-weight : lighter;
+
 }
