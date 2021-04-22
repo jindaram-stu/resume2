@@ -94,14 +94,14 @@ html, body {
 
 .per-java-back {
     display : inline-block;
-    width: 70%;
+    width: 50%;
     height : 10px;
     background-color: #B9CDE3;
 }
 
 .per-java {
     display : inline-block;
-    width : 30%;
+    width : 50%;
     height : 10px;
     margin : 0 -6px;
     background-color : #9AB4D4;
@@ -114,14 +114,14 @@ html, body {
 
 .per-CSS-back {
     display : inline-block;
-    width: 40%;
+    width: 25%;
     height : 10px;
     background-color: #B9CDE3;
 }
 
 .per-CSS {
     display : inline-block;
-    width : 60%;
+    width : 75%;
     height : 10px;
     margin : 0 -6px;
     background-color : #9AB4D4;
@@ -130,14 +130,14 @@ html, body {
 
 .per-DB-back {
     display : inline-block;
-    width: 60%;
+    width: 40%;
     height : 10px;
     background-color: #B9CDE3;
 }
 
 .per-DB {
     display : inline-block;
-    width : 40%;
+    width : 60%;
     height : 10px;
     margin : 0 -6px;
     background-color : #9AB4D4;
@@ -196,6 +196,7 @@ html, body {
 }
 .title-h1 {
     float : left;
+    font-size : 38px;
 }
 .title-h2 {
     float : left;
@@ -312,14 +313,14 @@ html, body {
 .stick-java {
     float : left;
     height : 20px;
-    width : 50%;
+    width : 40%;
     background-color: #9AB4D4;
 }
 
 .stick-per-java {
     float : left;
     height : 20px;
-    width : 30%;
+    width : 40%;
     background-color: #708098;
 }
 
@@ -427,6 +428,45 @@ html, body {
     width : 20%;
     background-color: #708098;
 }
+
+.project {
+    overflow : hidden;
+    margin-bottom : 40px;
+}
+
+.project-head {
+    overflow : hidden;
+}
+
+.project-name {
+    float : left;
+    font-size : 25px;
+    font-weight : bold;
+}
+
+.project-date {
+    float : right;
+    font-size : 17px;
+    font-weight : lighter;
+
+}
+
+.project-content {
+    margin-top : 20px;
+    clear : both;
+}
+
+.project-position {
+    font-size : 15px;
+    font-weight : bold
+}
+
+.project-explanation {
+    margin-top : 5px;
+    font-size : 15px;
+    font-weight : lighter;
+}
+
 
 
 
