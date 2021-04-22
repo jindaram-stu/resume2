@@ -265,3 +265,170 @@ html, body {
     font-weight : lighter;
 
 }
+
+.about-content .title-h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size : 38px;
+    color :#708098;
+}
+
+.about-content .title-h2 {
+    font-size : 30px;
+    font-family: 'Black Han Sans', sans-serif;
+    color :#708098;
+}
+
+.contents .introduce {
+    color : #708098;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight : 100;  
+}
+.skills-section {
+    
+}
+
+.skills-half {
+    
+}
+.skills-section-1 {
+    overflow : hidden;
+    float: left;
+    width : 50%;
+    
+
+}
+
+.skills-section-2 {
+    
+    float : left;
+    width : 50%;
+    height : 300px;
+
+
+}
+.stick {
+    margin-top : 10px;
+}
+.stick-java {
+    float : left;
+    height : 20px;
+    width : 50%;
+    background-color: #9AB4D4;
+}
+
+.stick-per-java {
+    float : left;
+    height : 20px;
+    width : 30%;
+    background-color: #708098;
+}
+
+.skills-half p {
+    font-family: 'Noto Sans KR', sans-serif;
+    color :#708098;
+    font-size : 30px;
+    font-weight : lighter;
+}
+
+.skills-set-java {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+
+/* Node */
+
+.skills-set-node {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+.stick-node {
+    float : left;
+    height : 20px;
+    width : 70%;
+    background-color: #9AB4D4;
+}
+
+.stick-per-node {
+    float : left;
+    height : 20px;
+    width : 10%;
+    background-color: #708098;
+}
+
+/* DB */
+
+.skills-set-DB {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+
+.stick-DB {
+    float : left;
+    height : 20px;
+    width : 45%;
+    background-color: #9AB4D4;
+}
+
+.stick-per-DB {
+    float : left;
+    height : 20px;
+    width : 35%;
+    background-color: #708098;
+}
+
+.skills-set-DB {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+
+/* net */
+
+.skills-set-net {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+
+.stick-net {
+    float : left;
+    height : 20px;
+    width : 35%;
+    background-color: #9AB4D4;
+}
+
+.stick-per-net {
+    float : left;
+    height : 20px;
+    width : 45%;
+    background-color: #708098;
+}
+
+.skills-set-net {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+
+/* net */
+
+.skills-set-fr {
+    margin-bottom : 20px;
+    overflow : hidden;
+}
+
+.stick-fr {
+    float : left;
+    height : 20px;
+    width : 60%;
+    background-color: #9AB4D4;
+}
+
+.stick-per-fr {
+    float : left;
+    height : 20px;
+    width : 20%;
+    background-color: #708098;
+}
+
+
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Black Han Sans', sans-serif; */
