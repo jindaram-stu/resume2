@@ -204,7 +204,6 @@ html, body {
 }
 .line {
     clear:both;
-    float :right;
     height : 1px;
     width : 100%;
     border-bottom : 1px solid #708098;
