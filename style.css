@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+p {
+    margin:0;
+    padding : 0;
+}
 
 html, body {
     height : 100vh;
@@ -50,12 +54,14 @@ html, body {
     margin : auto;
 }
 .name {
+    line-height : auto;
     float : left;
     text-align: center;
     color : white;
     font-size : 35px;
     font-family: 'Black Han Sans', sans-serif;
     margin-top : 10px;
+    padding : 0;
 
 }
 
@@ -90,6 +96,7 @@ html, body {
     font-family: 'Noto Sans KR', sans-serif;
     color : white;
     font-weight: bold;
+    margin-bottom : 0;
 }
 
 .per-java-back {
@@ -145,7 +152,7 @@ html, body {
 }
 
 .menu {
-    
+    z-index : 10;
     position : fixed;
     width: inherit;
     height : 80px;
@@ -190,8 +197,6 @@ html, body {
 
 .profile-content {
     font-family: 'Black Han Sans', sans-serif;
-
-    font-size : 50px;
     color : #708098;
 }
 .title-h1 {
@@ -204,9 +209,9 @@ html, body {
 }
 .line {
     clear:both;
-    height : 1px;
+    height : 0.1px;
     width : 100%;
-    border-bottom : 1px solid #708098;
+    border-bottom : 0.1px solid #7080984d;
     margin-bottom : 15px;
 }
 
@@ -465,9 +470,103 @@ html, body {
     font-size : 15px;
     font-weight : lighter;
 }
+.email-header {
+   
+   margin-bottom : 20px;
+}
+.email {
+    width : 700px;
+    margin-top : 25px;
+    margin-left: auto;
+    margin-right : auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.aa {
+    z-index : 5;
+}
+
+.text-box {
+    border-radius: 8px;
+    border : 1px solid rgb(182, 182, 182);
+    font-size : 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin : 0;
+    resize : none;
+}
 
 
+.text-box:focus {
+    
+    outline : none;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
 
+.email .email-title {
+    font-size : 25px;
+    margin-bottom : 5px;
+}
+
+.email .email-body {
+    font-size : 25px;
+
+
+}
+
+.bonaegi {
+    margin :auto;
+    margin-top : 30px;
+    width : 70px;
+    margin-bottom : 30px;
+    
+}
+
+.sub {
+    width : 70px;
+    height : 30px;
+    color : #707070;
+    background-color: white;
+    border-radius: 8px;
+    border : 1px solid rgb(182, 182, 182);
+}
+
+.sub:hover {
+    width : 70px;
+    height : 30px;
+    background-color: rgb(240, 240, 240);
+    color : #303030;
+    border-radius: 10px;
+    border : 1px solid rgb(182, 182, 182);
+}
+
+.sns {
+
+    text-align : center;
+    margin-top : 30px;
+}
+
+.sns-icon {
+    margin : 0 15px;
+}
+
+.more-sns {
+    text-align : center;
+}
+
+.notion_icon {
+    width : 5%;
+}
+
+.sns-icon {
+    text-align : center;
+    margin-bottom : 25px;
+}
+
+.snsico {
+    margin: 0 15px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
 
 /* font-family: 'Noto Sans KR', sans-serif; */
 /* font-family: 'Black Han Sans', sans-serif; */
